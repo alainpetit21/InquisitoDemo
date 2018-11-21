@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: inquisitoDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP4F2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/inquisitoDemo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"Z:\Work\AlainPetit\Code\inquisito\src\CUBE.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP4F2.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP4F3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/inquisitoDemo.pdb" /debug /machine:I386 /out:"Debug/inquisitoDemo.exe" /pdbtype:sept 
+.\Debug\VRAM.OBJ
+.\Debug\CUBE.OBJ
+]
+Creating command line "link.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP4F3.tmp"
+<h3>Output Window</h3>
+Compiling...
+CUBE.CPP
+z:\work\alainpetit\code\inquisito\src\cube.cpp(53) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+z:\work\alainpetit\code\inquisito\src\cube.cpp(54) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+z:\work\alainpetit\code\inquisito\src\cube.cpp(241) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+z:\work\alainpetit\code\inquisito\src\cube.cpp(241) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+z:\work\alainpetit\code\inquisito\src\cube.cpp(256) : error C2065: 'textmode' : undeclared identifier
+z:\work\alainpetit\code\inquisito\src\cube.cpp(256) : error C2065: 'C4350' : undeclared identifier
+z:\work\alainpetit\code\inquisito\src\cube.cpp(290) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+z:\work\alainpetit\code\inquisito\src\cube.cpp(290) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+z:\work\alainpetit\code\inquisito\src\cube.cpp(292) : error C2065: 'memset' : undeclared identifier
+z:\work\alainpetit\code\inquisito\src\cube.cpp(326) : error C2065: 'delay' : undeclared identifier
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+inquisitoDemo.exe - 4 error(s), 6 warning(s)
+</pre>
+</body>
+</html>
